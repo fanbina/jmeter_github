@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="3095" it="0" lt="3087" ct="2868" ts="1505273267509" s="true" lb="登录" rc="200" rm="" tn="线程组 1-1" dt="text" by="45532" sby="320" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<sample t="59" it="1" lt="0" ct="0" ts="1505273270644" s="false" lb="project_list" rc="400" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="线程组 1-1" dt="" by="1267" sby="246" ng="1" na="1">
+  <httpSample t="59" it="0" lt="59" ct="6" ts="1505273270644" s="false" lb="project_list" rc="400" rm="" tn="线程组 1-1" dt="text" by="1267" sby="246" ng="1" na="1">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>true</failure>
+      <error>false</error>
+      <failureMessage>Test failed: text expected to contain /&quot;code&quot;:&quot;0&quot;/</failureMessage>
+    </assertionResult>
+  </httpSample>
+</sample>
+<sample t="307" it="0" lt="0" ct="0" ts="1505273270705" s="false" lb="script_list" rc="200" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="线程组 1-1" dt="" by="390" sby="262" ng="1" na="1">
+  <httpSample t="307" it="0" lt="105" ct="8" ts="1505273270705" s="false" lb="script_list" rc="200" rm="" tn="线程组 1-1" dt="text" by="390" sby="262" ng="1" na="1">
+    <assertionResult>
+      <name>响应断言</name>
+      <failure>true</failure>
+      <error>false</error>
+      <failureMessage>Test failed: text expected to contain /&quot;code&quot;:&quot;0&quot;/</failureMessage>
+    </assertionResult>
+  </httpSample>
+</sample>
+<sample t="2" it="0" lt="0" ct="0" ts="1505273271022" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="397" sby="0" ng="1" na="1"/>
+
+</testResults>
